@@ -1,0 +1,19 @@
+.home{
+    font-style: normal;
+    color: orange;
+    margin-top: 20px;
+    font-size: 190px;
+    text-shadow: 5px 5px blue;
+    text-align: center;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("IMG/cityfeild.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
