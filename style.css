@@ -1,19 +1,49 @@
-.home{
-    font-style: normal;
-    color: orange;
-    margin-top: 20px;
-    font-size: 190px;
-    text-shadow: 5px 5px blue;
-    text-align: center;
-
-}
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    margin: 0;
     background-image: url("IMG/cityfeild.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.home {
+    font-style: normal;
+    color: orange;
+    margin-top:200px;
+    font-size: 140px; 
+    text-shadow: 5px 5px blue;
+    text-align: center;
+}
+
+.mets-navbar {
+    background-color: #002d72; 
+    border-bottom: 4px solid #ff5910; 
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff5910;
+}
+
+
+.navbar-brand:hover {
+    font-weight: bold;
+    font-size: 24px;
+    color: purple;
+}
+
+.nav-link:hover {
+    color: #ff5910; 
+    text-shadow: 2px 2px purple;
+}
+.nav-link{
+    color: #ff5910; 
 }
