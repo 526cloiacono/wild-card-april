@@ -1,50 +1,98 @@
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
-    margin: 0;
+  }
+  
+  /* HOME PAGE ONLY */
+  .home-page {
     background-image: url("IMG/cityfeild.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-.home {
-    font-style: normal;
-    color: #ff5910;
-    margin-top:200px;
-    font-size: 140px; 
-    text-shadow: 6px 6px #002d72;
-    text-align: center;
-}
-
-.mets-navbar {
-    background-color: #002d72; 
-    border-bottom: 4px solid #ff5910; 
-}
-
-.navbar-nav .nav-link {
-    margin-right: 15px;
+    background-attachment: fixed;
+    overflow: hidden; /* Prevent scroll */
+    color: white;
+  }
+  
+  /* OTHER PAGES */
+  .other-page {
+    background-color: #002d72; /* Mets Blue */
+    color: white;
+  }
+  
+  /* NAVBAR STYLING */
+  .mets-navbar {
+    background-color: #002d72; /* Mets Blue */
+    border-bottom: 4px solid #ff5910; /* Mets Orange */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
     font-size: 18px;
-}
+    color: white !important;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #ff5910 !important; /* Mets Orange */
+  }
+  
+  /* HOME PAGE TITLE */
+  .home {
+    font-style: normal;
+    color: orange;
+    margin-top: 30px;
+    font-size: 5rem;
+    text-shadow: 5px 5px blue;
+    text-align: center;
+  }
+  .single-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: white;
+    border: 3px solid #002d72;
+    border-radius: 15px;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    color: #002d72;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #333;
+  }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 24px;
-    color: #ff5910;
-}
-
-
-.navbar-brand:hover {
-    font-weight: bold;
-    font-size: 24px;
-    color: purple;
-}
-
-.nav-link:hover {
-    color: #ff5910; 
-    text-shadow: 2px 2px purple;
-}
-.nav-link{
-    color: #ff5910; 
-}
-
+    
