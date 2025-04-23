@@ -28,7 +28,12 @@ body {
   .navbar-brand {
     font-weight: bold;
     font-size: 24px;
-    color: white !important;
+    color: white;
+  }
+  .navbar-brand:hover {
+    font-weight: bold;
+    font-size: 24px;
+    color: purple;
   }
   
   .navbar-nav .nav-link {
