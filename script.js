@@ -14,8 +14,8 @@ const playerNames = [
   ]
   
   const playerImages = [
-    "IMG/pete.jpg", "IMG/lindor.jpg", "IMG/nimmo.jpg", "IMG/mcneil.jpg", "IMG/senga.jpg",
-    "IMG/wright.jpg", "IMG/piazza.jpg", "IMG/seaver.jpg", "IMG/hernandez.jpg", "IMG/strawberry.jpg"
+    "img/pete.webp", "img/lindor.jpg", "img/nimo.jpg", "img/jeff.jpg", "img/senga.webp",
+    "img/wright.jpg", "img/mike.jpg", "img/seaver.jpg", "img/keith.jpg", "img/straw.jpg"
   ]
   
   const playerTeams = [
@@ -43,6 +43,5 @@ const playerNames = [
     showPlayer(currentIndex)
   })
   
-  // Show the first player right away
   showPlayer(currentIndex)
   

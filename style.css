@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 200px;
     height: 500px;
     width: 100%;
   }
@@ -78,7 +78,6 @@ body {
   }
   
   .card img {
-    width: 100%;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 20px;
@@ -98,22 +97,25 @@ body {
   .btn-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 150px;
+    z-index: 10;
+    position: relative;
   }
   
   #next-btn {
-    padding: 12px 24px;
+    padding: 14px 28px;
     font-size: 20px;
     background-color: #ff5910;
-    color: #002d72;
+    color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-
+    font-weight: bold;
+    transition: all 0.3s ease;
   }
   
   #next-btn:hover {
-    background-color: purple; 
-    color: #ff5910; 
+    background-color: #002d72; 
+    color: #ff5910;
+    transform: scale(1.05);
   }
-    
