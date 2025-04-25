@@ -48,10 +48,10 @@ body {
 
   .home {
     font-style: normal;
-    color: orange;
+    color: #ff5910;
     margin-top: 30px;
     font-size: 5rem;
-    text-shadow: 5px 5px blue;
+    text-shadow: 5px 5px #002d72;
     text-align: center;
   }
   .single-card-container {
@@ -142,3 +142,28 @@ body {
     color: #002d72;
     transform: scale(1.05);
   }
+
+/* fun facts */
+
+#mets-funfact{
+    background-color: #ff5910;
+    color: #002d72;
+    border: none;
+    border-radius: 10px;
+     font-weight: bold;
+     font-size: 50px;
+     text-align: center;
+     margin-top: 100px;
+     margin-left: 160px;
+     margin-right: 160px;
+}
+
+
+.header{
+  font-style: normal;
+    color: #ff5910;
+    margin-top: 30px;
+    font-size: 5rem;
+    text-shadow: 3px 3px purple;
+    text-align: center;
+}
