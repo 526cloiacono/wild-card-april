@@ -119,3 +119,26 @@ body {
     color: #ff5910;
     transform: scale(1.05);
   }
+
+
+
+
+  #create-btn {
+    margin-left: 15px;
+    padding: 14px 28px;
+    font-size: 20px;
+    background-color: #002d72; /* Mets Blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+  }
+  
+  #create-btn:hover {
+    background-color: #ff5910;
+    color: #002d72;
+    transform: scale(1.05);
+  }

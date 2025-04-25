@@ -44,4 +44,29 @@ const playerNames = [
   })
   
   showPlayer(currentIndex)
+
+
+
+
+  document.getElementById("create-btn").addEventListener("click", () => {
+    const name = prompt("Enter the player's name:");
+    const team = prompt("Enter the player's team:");
+    const stat1 = prompt("Enter a stat (e.g. HRs: 25):");
+    const stat2 = prompt("Enter another stat (e.g. All-Star: 3x):");
+  
+    if (name && team && stat1 && stat2) {
+      const container = document.getElementById("player-card-container");
+      container.innerHTML = `
+        <div class="card">
+          <img src="img/grimace.jpg" alt="${name}">
+          <h3>${name}</h3>
+          <p>Team: ${team}</p>
+          <p>${stat1}</p>
+          <p>${stat2}</p>
+        </div>
+      `;
+    } else {
+      alert("Please fill in all fields to create a player card!");
+    }
+  });
   
