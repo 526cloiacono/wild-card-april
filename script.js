@@ -14,8 +14,8 @@ const playerNames = [
   ]
   
   const playerImages = [
-    "img/pete.webp", "img/lindor.jpg", "img/nimo.jpg", "img/jeff.jpg", "img/senga.webp",
-    "img/wright.jpg", "img/mike.jpg", "img/seaver.jpg", "img/keith.jpg", "img/straw.jpg"
+    "/img/pete.webp", "/img/lindor.jpg", "/img/nimo.jpg", "/img/jeff.jpg", "/img/senga.webp",
+    "/img/wright.jpg", "/img/mike.jpg", "/img/seaver.jpg", "/img/keith.jpg", "/img/straw.jpg"
   ]
   
   const playerTeams = [
