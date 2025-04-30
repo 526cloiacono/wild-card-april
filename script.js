@@ -46,8 +46,6 @@ const playerNames = [
   showPlayer(currentIndex)
 
 
-
-
   document.getElementById("create-btn").addEventListener("click", () => {
     const name = prompt("Enter the player's name:");
     const team = prompt("Enter the player's team:");
